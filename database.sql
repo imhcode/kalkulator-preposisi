@@ -165,7 +165,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Membuang data untuk tabel matdis_replica.users: ~1 rows (lebih kurang)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `images`, `thumbs`, `nim`, `gender`, `full_name`, `remember_token`, `created_at`, `updated_at`) VALUES
-	(1, 'Fiqi', 'admin@gmail.com', '$2y$10$zR9zpJ7bSWO8uxAKyyndYOxySRIy1GfvAT8tVHSE4y93mPehzuTN6', 'http://matdis.com/photos/1/fiqi.jpg', 'http://matdis.com/photos/1/thumbs/fiqi.jpg', 'A11.2017.10825', 'L', 'Fiqi Arifianto', 'KlR73Ynldd5KOV7Ejp8TlvwVC02zlWjBW4m5fyIxA6OdSXecw2xWgbzH3JL8', '2018-10-03 07:20:54', '2018-12-26 09:20:07');
+	(1, 'Fiqi', 'admin@gmail.com', '$2y$10$/UyB9/6sbcjLJGkvD593a.IOZ1t5WDWnUliFiS04Sbc5kI.wIH35W', 'http://matdis.com/photos/1/fiqi.jpg', 'http://matdis.com/photos/1/thumbs/fiqi.jpg', 'A11.2017.10825', 'L', 'Fiqi Arifianto', NULL, '2018-10-03 07:20:54', '2018-12-26 09:20:07');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
